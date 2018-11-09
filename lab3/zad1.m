@@ -6,13 +6,8 @@ clear;
 load funkcjeLUT;
 
 
-%figure(1);
-%plot(kwadratowa);
-
 lena = imread('lena.bmp');
 jet = imread('jet.bmp');
-
-%imshow(intlut(lena,kwadratowa));
 
 figure()
 LUT(lena, kwadratowa);
